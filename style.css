@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* TODO */
+  background-image: linear-gradient(to right, yellow, orangered);
+}
+
+input {
+ /* TODO */
+ display: block;
+ margin: 250px auto;
+ height: 50px; 
+ background: #f5a742; 
+ border: 0; 
+ outline-color: orangered; 
+ font-size: 18px; 
+ color: #333;
+ width: 300px; 
+ border-radius: 5px; 
+ padding: 5px;
+}
+
+ul {
+  /* TODO */
+  display: block;
+  margin: -250px auto;
+  width: 300px; 
+  background: #f5a742;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+ul.has-suggestions {
+  display: block;
+}
+
+.suggestions ul li {
+  /* TODO */
+  list-style: none; 
+  border-radius: 3px;
+  padding: 10px 10px;
+  cursor: pointer; 
+
+}
+
+ul li:hover {
+  /* TODO */
+  background: orangered; 
+}
